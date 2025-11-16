@@ -1,0 +1,54 @@
+[
+    {
+        "visible": true,
+        "id": 1,
+        "text": "✅ I am fine with this one. Not Actionable for now.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "applications": [
+            {
+                "text": "Used this mindset to accept that some projects are complete as they are and don't need further action.",
+                "date": "2023-11-15T09:00:00+05:30"
+            }
+        ]
+    },
+    {
+        "visible": true,
+        "id": 2,
+        "text": "📌 WIP. Currently working on this one.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "applications": [
+            {
+                "text": "Applied this to my current dance practice - focusing on the salsa techniques I'm actively improving.",
+                "date": "2023-11-14T18:30:00+05:30"
+            }
+        ]
+    },
+    {
+        "visible": true,
+        "id": 3,
+        "text": "📖 Start Here.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "applications": [
+            {
+                "text": "Used this as a starting point for my morning routine - beginning with pranayam and dance practice.",
+                "date": "2023-11-13T06:00:00+05:30"
+            }
+        ]
+    },
+    {
+        "visible": true,
+        "id": 4,
+        "text": "🚀 Convert to Actionable, and Track it..",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "applications": [
+            {
+                "text": "Converting this principle into actionable steps by creating a tracking system for my dance video goals.",
+                "date": "2023-11-12T20:15:00+05:30"
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "visible": true,
+        "id": 1,
+        "text": "I took up one of the most difficult dance forms, Salsa, and I am doing very well in that. Well Done NC.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "comments": [
+            {
+                "text": "text",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [
+            {
+                "text": "Let me start making shines videos. This is going to be a lot of fun. I don't have to rely too much on Socials etc.",
+                "date": "2023-11-14T22:30:00+05:30"
+            }
+        ],
+        "applications": [
+            {
+                "text": "Started recording my dance practice sessions and created a YouTube channel for shines videos.",
+                "date": "2023-11-15T11:00:00+05:30"
+            }
+        ]
+    },
+    {
+        "visible": true,
+        "id": 2,
+        "text": "There has been tremendous improvement in my health, compared to my yester years. I am like a beast in Gym.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "comments": [
+            {
+                "text": "Need to focus on Breathing, Leg Strength, Side Plank.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [
+            {
+                "text": "Let me make Pranayam and Deep Breathing part of my life.",
+                "date": "2023-11-14T22:30:00+05:30"
+            }
+        ],
+        "applications": [
+            {
+                "text": "Incorporated 10 minutes of pranayam into my daily morning routine before gym.",
+                "date": "2023-11-13T06:30:00+05:30"
+            }
+        ]
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "visible": true,
+        "id": 1,
+        "category": [
+            "📆 Calendar",
+            "📌 WIP",
+            "💊 Pill",
+            "🧘‍♂️ Meditation",
+            "🏋️ Exercise",
+            "🍎 Apple",
+            "🛢️ Oil",
+            "💇‍♂️ Hair",
+            "💆‍♂️ Skin",
+            "🛑 Immediate"
+        ],
+        "text": "📌 WIP - Take it up, as it is very important. | 📆 Calendar - Time Bound.",
+        "author": "Naresh Chaurasia",
+        "book": "Self Care"
+    },
+    {
+        "visible": true,
+        "id": 1,
+        "category": [
+            "🧘‍♂️ Meditation",
+            "🛑 Immediate"
+        ],
+        "text": "Pranayam | Meditation is the best way to connect to your inner self.",
+        "author": "Naresh Chaurasia",
+        "book": "Self Care"
+    },
+    {
+        "visible": true,
+        "id": 1,
+        "category": [
+            "🛑 Immediate"
+        ],
+        "text": "Progressive Leg Strengthning. With each passing day, it will get very difficult.",
+        "author": "Naresh Chaurasia",
+        "book": "Self Care"
+    },
+    {
+        "visible": true,
+        "id": 1,
+        "category": [
+            "📆 Calendar",
+            "🛢️ Oil",
+            "💆‍♂️ Skin"
+        ],
+        "text": "Dabur Castor Oil mixed with cold pressed Coconut oil, has done wonder to my skin related issue. Nov | Dec | Jan | Feb.",
+        "author": "Naresh Chaurasia",
+        "book": "Self Care"
+    }
+]

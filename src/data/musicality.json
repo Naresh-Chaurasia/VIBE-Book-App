@@ -1,0 +1,164 @@
+[
+    {
+        "visible": true,
+        "id": 1000,
+        "category": [
+            "🚀 Actionable",
+            "👁️ Eye Opener",
+            "❌ Ignore",
+            "✅ Knowledge",
+            "️️⚠️ Not Clear",
+            "🔥 WOW",
+            "📌 WIP | NEXT"
+        ],
+        "text": "Convert to actionable, and act on it. |",
+        "author": "James Joseph",
+        "book": "Hear the Beat, Feel the Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 1,
+        "category": [
+            "✅ Knowledge"
+        ],
+        "text": "This book isn't about knowing music in your head; it's about connecting to it at a deeper level, feeling it in your bones, and creating a rhythmic connection. You'll learn how to clap, helping you connect to music because clapping makes you an instrument in the band. You'll learn how to identify the structure of music, known as phrasing, helping you predict where the music is going and enjoy it more.",
+        "author": "James Joseph",
+        "book": "Hear the Beat, Feel the Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 4,
+        "category": [
+            "👁️ Eye Opener"
+        ],
+        "text": "✅ Being rhythmically challenged is not a lack of ability; it's a lack of education. It was a lack of education and training that was holding me back. ",
+        "author": "James Joseph",
+        "book": "Hear the Beat, Feel the Music",
+        "comments": [
+            {
+                "text": "I have to educate myself to be musical.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 4,
+        "category": [
+            "✅ Knowledge"
+        ],
+        "text": "✅ It was the first song where I could hear the structure—the phrasing. I could hear the sets of 8 in the music and how they came together to form the bigger structure. For two years I counted the sets of 8 obsessively until it became natural and I could feel the beat.A set of 8 usually has a theme; Listen for themes because they relate to the count and structure. Mini-phrases form larger themes called major phrases.",
+        "author": "James Joseph",
+        "book": "Hear the Beat, Feel the Music",
+        "comments": [
+            {
+                "text": "I have to educate myself to be musical.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 14,
+        "category": [
+            "🚀 Actionable"
+        ],
+        "text": "Drums and percussion create the underlying beat of the music. The drums and percussion have the final say in establishing the beat. Feel the music — the end goal is hearing sets of 8 without counting. | Themes often build for three sets of 8 and resolve in the fourth | Vocals do not always line up with sets of 8.",
+        "author": "James Joseph",
+        "book": "Hear the Beat, Feel the Music",
+        "comments": [
+            {
+                "text": "I need to know and remember what are precussion instruments.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [],
+        "applications": [
+            {
+                "text": "I need to know and remember what are precussion instruments.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ]
+    },
+    {
+        "visible": true,
+        "id": 24,
+        "category": [
+            "👁️ Eye Opener"
+        ],
+        "text": "The way to start counting is simple: jump in and make mistakes. As you count, you'll often wonder if you're doing it right — stop and start over when needed. Listen for an accent or emphasis on count 1. Counts 1 and 5 often sound stronger or different than other beats.Count 1 may be louder or may simply feel different — listen for that 'something' rather than overthinking it. Some songs have accents on both count 1 and count 5, making them harder to distinguish. Listening for the transition between two major phrases helps — the end of one phrase sets up the beginning of the next.",
+        "author": "Naresh Chaurasia",
+        "book": "Life As It Is, and what you want to MAKE of it.",
+        "comments": [],
+        "affirmations": [
+            {
+                "text": "It is in the Act of trying to do it, it will happen, otherwise it will always be an illusion.",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 31,
+        "category": [
+            "✅ Knowledge"
+        ],
+        "text": "A set of 8 is like a sentence — it stands out and has its own integrity or theme. Over eight beats you may hear a setup and resolution. You may hear a 'call and response,' where music makes a statement and then answers it.Listen for transitions between sets of 8 — something ending signals something new beginning.",
+        "author": "Naresh Chaurasia",
+        "book": "Life As It Is, and what you want to MAKE of it.",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 39,
+        "category": [
+            "🔥 WOW",
+            "👁️ Eye Opener"
+        ],
+        "text": "Try to listen to the music as a whole to get a feel for the bigger structure. Practice is the hardest part of learning, and training is the essence of transformation. Intuitive understanding of music takes time — improvement is gradual like turning a dial, not flipping a switch.",
+        "author": "Naresh Chaurasia",
+        "book": "Life As It Is, and what you want to MAKE of it.",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 41,
+        "category": [
+            "📌 WIP | NEXT"
+        ],
+        "text": "Learning to clap helps you hear sets of 8, feel the beat, move better, and avoid clapping off-beat. The downbeat is on counts 1, 3, 5, and 7; the upbeat is on counts 2, 4, 6, and 8. You can clap on every beat, or only on the downbeats, or only on the upbeats depending on the rhythm you want to feel. If the 'tick' has emphasis, it can be written in all caps like boom TICK to show the difference between the beats. In an eight-beat pattern, the stomp represents the downbeat and the clap represents the upbeat, creating stomp CLAP cycles. Try variations: stomp+clap, stomp only, and clap only — each teaches your body a different part of the rhythm structure. A stomp–clap pattern can make you sound musical even without playing an instrument — it's a simple way to fake musical talent.",
+        "author": "Naresh Chaurasia",
+        "book": "Life As It Is, and what you want to MAKE of it.",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 48,
+        "category": [
+            "🔥 WOW"
+        ],
+        "text": "The goal is to be entrained by the music — mesmerized — by connecting to a simple, repetitive rhythmic pattern.",
+        "author": "Naresh Chaurasia",
+        "book": "Life As It Is, and what you want to MAKE of it.",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    }
+]

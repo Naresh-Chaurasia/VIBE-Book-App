@@ -1,0 +1,27 @@
+[
+    {
+        "visible": true,
+        "id": 1,
+        "text": "I took up one of the most difficult dance forms, Salsa, and I am doing very well in that. Well Done NC.",
+        "author": "Naresh Chaurasia",
+        "book": "Life Journey",
+        "comments": [
+            {
+                "text": "text",
+                "date": "2023-11-10T14:45:00+05:30"
+            }
+        ],
+        "affirmations": [
+            {
+                "text": "Let me start making shines videos. This is going to be a lot of fun. I don't have to rely too much on Socials etc.",
+                "date": "2023-11-14T22:30:00+05:30"
+            }
+        ],
+        "applications": [
+            {
+                "text": "Used emotional intelligence to handle feedback on dance videos constructively instead of taking it personally.",
+                "date": "2023-11-14T20:00:00+05:30"
+            }
+        ]
+    }
+]
