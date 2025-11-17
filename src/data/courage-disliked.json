@@ -2,6 +2,7 @@
     {
         "visible": true,
         "id": 1000,
+        "chapter": 3,
         "text": "Text Taken From Book or some other source",
         "author": "Naresh Chaurasia",
         "book": "Life As It Is, and what you want to MAKE of it.",
@@ -27,6 +28,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 3,
         "text": "✅ He lacked self-confidence and, ever since childhood, this had been compounded by deep-seated feelings of inferiority with regard to his personal and academic backgrounds, as well as his physical appearance. Perhaps, as a result, he tended to be excessively self-conscious when people looked at him. Mostly, he seemed incapable of truly appreciating other people's happiness, and was constantly pitying himself. To him, the philosopher's claims were nothing more than the stuff of fantasy.",
         "author": "Ichiro Kishimi, Fumitake Koga",
         "book": "The Courage to be Disliked",
@@ -167,6 +169,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 3,
         "text": "📌 Why do you dislike yourself? Why do you focus only on your shortcomings, and why have you decided to not start liking yourself? It's because you are overly afraid of being disliked by other people and getting hurt in your interpersonal relationships",
         "author": "Ichiro Kishimi, Fumitake Koga",
         "book": "The Courage to be Disliked",

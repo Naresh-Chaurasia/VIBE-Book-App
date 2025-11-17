@@ -1,0 +1,49 @@
+[
+    {
+        "visible": true,
+        "id": 1000,
+        "chapter": "0",
+        "category": [
+            "🚀 Actionable",
+            "👁️ Eye Opener",
+            "❌ Ignore",
+            "✅ Knowledge",
+            "️️⚠️ Not Clear",
+            "🔥 WOW",
+            "📌 WIP | NEXT"
+        ],
+        "text": "DND",
+        "author": "JJ",
+        "book": "Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 1000,
+        "chapter": "0",
+        "category": [
+            "🚀 Actionable"
+        ],
+        "text": "7-Day Salsa Musicality Training Plan",
+        "author": "JJ",
+        "book": "Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": [
+            {
+                "text": "Day 1 – Hear the Layers - Identify instruments.",
+                "date": "2023-11-16T00:00:00+05:30"
+            },
+            {
+                "text": "Day 2 – Accents and Styling. Hear the accent and add styling.",
+                "date": "2023-11-17T00:00:00+05:30"
+            },
+            {
+                "text": "Day 3 – Phrase Awareness Walk - Walk to the beat without partner, changing energy or style every 8 count (or at a phrase change).",
+                "date": "2023-11-17T00:00:00+05:30"
+            }
+        ]
+    }
+]

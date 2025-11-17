@@ -262,6 +262,7 @@ function QuotesList() {
                       {quote.author && <span>{quote.author}</span>}
                       {quote.book && quote.author && <span> • </span>}
                       {quote.book && <span>{quote.book}</span>}
+                      {quote.chapter && <span> • Chapter {quote.chapter}</span>}
                     </p>
                   )}
                 </div>

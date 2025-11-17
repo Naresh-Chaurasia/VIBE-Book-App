@@ -2,6 +2,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 7,
         "category": [
             "📆 Calendar",
             "📌 WIP",
@@ -21,6 +22,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 7,
         "category": [
             "🧘‍♂️ Meditation",
             "🛑 Immediate"
@@ -32,6 +34,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 7,
         "category": [
             "🛑 Immediate"
         ],
@@ -42,6 +45,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 7,
         "category": [
             "📆 Calendar",
             "🛢️ Oil",

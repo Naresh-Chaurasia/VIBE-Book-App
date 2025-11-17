@@ -2,6 +2,7 @@
     {
         "visible": true,
         "id": 1,
+        "chapter": 2,
         "text": "✅ I am fine with this one. Not Actionable for now.",
         "author": "Naresh Chaurasia",
         "book": "Life Journey",
@@ -15,6 +16,7 @@
     {
         "visible": true,
         "id": 2,
+        "chapter": 2,
         "text": "📌 WIP. Currently working on this one.",
         "author": "Naresh Chaurasia",
         "book": "Life Journey",
@@ -28,6 +30,7 @@
     {
         "visible": true,
         "id": 3,
+        "chapter": 2,
         "text": "📖 Start Here.",
         "author": "Naresh Chaurasia",
         "book": "Life Journey",
@@ -41,6 +44,7 @@
     {
         "visible": true,
         "id": 4,
+        "chapter": 2,
         "text": "🚀 Convert to Actionable, and Track it..",
         "author": "Naresh Chaurasia",
         "book": "Life Journey",

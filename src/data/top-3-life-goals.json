@@ -1,0 +1,41 @@
+[
+    {
+        "visible": true,
+        "id": 1000,
+        "chapter": "0",
+        "category": [
+            "🚀 Actionable",
+            "👁️ Eye Opener",
+            "❌ Ignore",
+            "✅ Knowledge",
+            "️️⚠️ Not Clear",
+            "🔥 WOW",
+            "📌 WIP | NEXT"
+        ],
+        "text": "DND",
+        "author": "JJ",
+        "book": "Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": []
+    },
+    {
+        "visible": true,
+        "id": 1000,
+        "chapter": "0",
+        "category": [
+            "🚀 Actionable"
+        ],
+        "text": "Become a Very Good Dancer",
+        "author": "JJ",
+        "book": "Music",
+        "comments": [],
+        "affirmations": [],
+        "applications": [
+            {
+                "text": "Day 1 – Hear the Layers",
+                "date": ""
+            }
+        ]
+    }
+]
