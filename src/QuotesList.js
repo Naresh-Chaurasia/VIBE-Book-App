@@ -1,6 +1,30 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
+// Import all JSON files statically
+import emotionalIntelligence from './data/books/emotional-intelligence.json';
+import hearTheBeat from './data/books/hear-the-beat-james-joseph.json';
+import courageDisliked from './data/books/courage-disliked.json';
+
+// Import from data directory
+import musicalityTraining from './data/dance/musicality-training.json';
+import me from './data/others/me.json';
+import selfCare from './data/others/self-care.json';
+import top3LifeGoals from './data/others/top-3-life-goals.json';
+import emojis from './data/others/emojis.json';
+
+// Map of book IDs to their corresponding data
+const BOOK_DATA = {
+  'books/emotional-intelligence': emotionalIntelligence,
+  'books/hear-the-beat-james-joseph': hearTheBeat,
+  'books/courage-disliked': courageDisliked,
+  'dance/musicality-training': musicalityTraining,
+  'others/me': me,
+  'others/self-care': selfCare,
+  'others/top-3-life-goals': top3LifeGoals,
+  'others/emojis': emojis
+};
+
 function formatDate(dateString) {
   const date = new Date(dateString);
   const day = date.getDate().toString().padStart(2, '0');
@@ -19,12 +43,27 @@ function QuotesList() {
   const [allCategories, setAllCategories] = useState([]);
 
   useEffect(() => {
-    const loadBookData = async () => {
+    const loadBookData = () => {
       console.log(`Loading data for bookId: ${bookId}`);
       try {
-        // Dynamically import the book data
-        const bookData = await import(`./data/${bookId}.json`);
-        console.log('Loaded book data:', bookData);
+        // Try to find the book data by checking different possible ID formats
+        let bookData = BOOK_DATA[bookId];
+        
+        // If not found, try with 'books/' prefix
+        if (!bookData) {
+          bookData = BOOK_DATA[`books/${bookId}`];
+        }
+        
+        // If still not found, try with 'others/' prefix
+        if (!bookData) {
+          bookData = BOOK_DATA[`others/${bookId}`];
+        }
+        
+        if (!bookData) {
+          throw new Error(`Book with ID ${bookId} not found. Tried: ${bookId}, books/${bookId}, others/${bookId}`);
+        }
+        
+        console.log('Loaded book data for:', bookId, bookData);
 
         // Format the title from the filename
         const formattedTitle = bookId
@@ -96,7 +135,12 @@ function QuotesList() {
 
     if (bookId) {
       console.log(`Book ID changed to: ${bookId}`);
+      // Use setTimeout to ensure state updates don't happen during render
+    const timer = setTimeout(() => {
       loadBookData();
+    }, 0);
+    
+    return () => clearTimeout(timer);
     } else {
       console.error('No bookId provided');
     }
