@@ -8,6 +8,6 @@ my_date=$(date)
 
 echo $my_date
 
-git commit -m "Macbook Pro, Checkin Timestamp::$my_date"
+git commit -m "Home Page Category::$my_date"
 
-git push origin backend/self-care-wip
+git push origin book-app-with-filters

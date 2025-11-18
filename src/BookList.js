@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 
 // Import all JSON files statically
-import emotionalIntelligence from './data/books/emotional-intelligence.json';
 import hearTheBeat from './data/books/hear-the-beat-james-joseph.json';
 import courageDisliked from './data/books/courage-disliked.json';
 
-// Import from data directory
+// Import from other directories
 import musicalityTraining from './data/dance/musicality-training.json';
 import me from './data/others/me.json';
 import selfCare from './data/others/self-care.json';
@@ -24,13 +23,6 @@ const BookList = () => {
       try {
         // Define the books with their static imports
         const booksData = [
-          {
-            id: 'books/emotional-intelligence',
-            title: 'Emotional Intelligence',
-            description: 'A collection of quotes about emotional intelligence',
-            category: 'books',
-            data: emotionalIntelligence
-          },
           {
             id: 'books/hear-the-beat-james-joseph',
             title: 'Hear The Beat James Joseph',

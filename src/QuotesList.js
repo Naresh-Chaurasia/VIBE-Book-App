@@ -2,11 +2,10 @@ import React, { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 
 // Import all JSON files statically
-import emotionalIntelligence from './data/books/emotional-intelligence.json';
 import hearTheBeat from './data/books/hear-the-beat-james-joseph.json';
 import courageDisliked from './data/books/courage-disliked.json';
 
-// Import from data directory
+// Import from other directories
 import musicalityTraining from './data/dance/musicality-training.json';
 import me from './data/others/me.json';
 import selfCare from './data/others/self-care.json';
@@ -15,7 +14,6 @@ import emojis from './data/others/emojis.json';
 
 // Map of book IDs to their corresponding data
 const BOOK_DATA = {
-  'books/emotional-intelligence': emotionalIntelligence,
   'books/hear-the-beat-james-joseph': hearTheBeat,
   'books/courage-disliked': courageDisliked,
   'dance/musicality-training': musicalityTraining,
@@ -44,23 +42,27 @@ function QuotesList() {
 
   useEffect(() => {
     const loadBookData = () => {
-      console.log(`Loading data for bookId: ${bookId}`);
+      // Get the full path from the URL
+      const fullPath = window.location.pathname;
+      // Extract the part after /book/
+      const pathAfterBook = fullPath.split('/book/')[1];
+      
+      console.log(`Loading data for path: ${pathAfterBook}`);
+      
       try {
-        // Try to find the book data by checking different possible ID formats
-        let bookData = BOOK_DATA[bookId];
+        // Try to find the book data with the exact path
+        let bookData = BOOK_DATA[pathAfterBook];
         
-        // If not found, try with 'books/' prefix
         if (!bookData) {
-          bookData = BOOK_DATA[`books/${bookId}`];
+          // If not found, try to find by the last part of the path
+          const lastPart = pathAfterBook.split('/').pop();
+          bookData = Object.entries(BOOK_DATA).find(([key]) => 
+            key.endsWith(`/${lastPart}`)
+          )?.[1];
         }
         
-        // If still not found, try with 'others/' prefix
         if (!bookData) {
-          bookData = BOOK_DATA[`others/${bookId}`];
-        }
-        
-        if (!bookData) {
-          throw new Error(`Book with ID ${bookId} not found. Tried: ${bookId}, books/${bookId}, others/${bookId}`);
+          throw new Error(`Book with ID ${pathAfterBook} not found.`);
         }
         
         console.log('Loaded book data for:', bookId, bookData);
